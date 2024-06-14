@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "package": "com.diskree.immortaltrophies.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AnvilScreenHandlerMixin",
+    "AnvilScreenHandlerSlotMixin",
+    "EnchantmentScreenHandlerMixin",
+    "EntityMixin",
+    "GiveCommandMixin",
+    "GrindstoneScreenHandlerSlotMixin",
+    "ItemDispenserBehaviorMixin",
+    "ItemEntityMixin",
+    "ItemPlacementContextMixin",
+    "PersistentProjectileEntityMixin",
+    "PiglinBrainMixin",
+    "RecipeMatcherMixin",
+    "TradeOfferListMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "ItemRendererMixin"
+  ]
+}

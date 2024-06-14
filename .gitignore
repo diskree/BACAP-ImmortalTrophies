@@ -1,0 +1,7 @@
+.gradle/
+.idea/
+build/
+run/
+src/main/generated/
+scripts/BACAP/
+local.properties

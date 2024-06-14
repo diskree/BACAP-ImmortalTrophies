@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "${modId}",
+  "version": "${modVersion}",
+  "name": "${modName}",
+  "description": "Makes BlazeandCave's trophies completely immortal!",
+  "authors": [
+    "${author}"
+  ],
+  "contact": {
+    "sources": "${repoUrl}"
+  },
+  "license": "MIT",
+  "icon": "assets/immortaltrophies/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.diskree.immortaltrophies.ImmortalTrophies"
+    ]
+  },
+  "mixins": [
+    "immortaltrophies.mixins.json"
+  ],
+  "depends": {
+    "java": ">=${minJavaVersion}",
+    "minecraft": ">=${minMinecraftVersion}",
+    "fabricloader": ">=${minLoaderVersion}",
+    "fabric-api": "*"
+  },
+  "accessWidener": "immortaltrophies.accesswidener"
+}

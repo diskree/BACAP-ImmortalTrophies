@@ -1,0 +1,8 @@
+accessWidener v2 named
+
+accessible field net/minecraft/command/argument/ItemStackArgument components Lnet/minecraft/component/ComponentChanges;
+accessible field net/minecraft/command/argument/ItemStackArgument item Lnet/minecraft/registry/entry/RegistryEntry;
+
+accessible field net/minecraft/block/entity/AbstractFurnaceBlockEntity inventory Lnet/minecraft/util/collection/DefaultedList;
+
+accessible method net/minecraft/entity/projectile/PersistentProjectileEntity asItemStack ()Lnet/minecraft/item/ItemStack;
